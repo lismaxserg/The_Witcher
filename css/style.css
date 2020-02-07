@@ -50,6 +50,13 @@ body {
     margin-right: 24px;
 }
 
+.menu-link:hover {
+   padding-bottom: 1px;
+   border-bottom: 1px solid #FFFFFF;;
+   transition: 0.2s;
+}
+
+
 .social {
     cursor: pointer;
 }
@@ -57,6 +64,10 @@ body {
 .social-link {
     margin-left: 20px;
     text-decoration: none;
+}
+
+.social-link img:hover {
+    animation: pulse 1s ease-in infinite;
 }
 
 .main-content {
@@ -119,6 +130,13 @@ body {
 
 .button:active {
     color: #FFFFFF;
+}
+
+.button:hover {
+    color: #9D2929;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: 0.5s;
 }
 
 .play-image {
